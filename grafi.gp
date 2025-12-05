@@ -52,7 +52,7 @@ set title "Espectro de amplitud de señal totalmente filtrada Y[K]"
 set xlabel   "N"
 set ylabel   "Y[k]"
 plot  "espectroSenalFiltrada_2.dat" with impulses
-pause -1 "Grafica 6: Cerrar para terminar el programa\n"
+pause -1 "Grafica 6: Cerrar para ver siguiente\n"
 
 #------------- Graf 7 ----------------
 set title "Respuesta al impulso del primer Filtro "
@@ -68,4 +68,4 @@ set title "Respuesta al impulso del Segundo Filtro "
 set xlabel   "N"
 set ylabel   "H[K]"
 plot  "filtro2.dat"    
-pause -1 "Grafica 7: Cerrar para ver siguiente\n"
+pause -1 "Grafica 8: Cerrar para terminar el programa\n"
