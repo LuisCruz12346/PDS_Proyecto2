@@ -172,7 +172,7 @@ int main()
     // Filtro para suprimir Fo1
     double Filtro1[M];
     RespuestaImpulsoFiltro(Filtro1,a_1,b_1);
-    Groetzel(Filtro1,espectroMagnitud);
+    Goertzel(Filtro1,espectroMagnitud);
     // Se guarda el espectro del filtro
     FILE *fil1 = fopen("filtro1.dat", "w");;  // puntero al archivo
     for(int i =0; i< M; i++)
@@ -182,7 +182,7 @@ int main()
     // Filtro para suprimir Fo3
     double Filtro2[M];
     RespuestaImpulsoFiltro(Filtro2,a_2,b_2);
-    Groetzel(Filtro2,espectroMagnitud);
+    Goertzel(Filtro2,espectroMagnitud);
     // Se guarda el espectro del filtro
     FILE *fil2 = fopen("filtro2.dat", "w");;  // puntero al archivo
     for(int i =0; i< M; i++)
